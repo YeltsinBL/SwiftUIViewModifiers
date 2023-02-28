@@ -42,3 +42,6 @@ Ejemplos prácticos para mejorar la aplicación.
 -- `BottomBar`: su posición es en la parte inferior derecha.
 -- `Status`: su posición es en el centro de la parte inferior.
 - Se puede cambiar el color al 'ToolBar' para ello usamos el 'toolbarBackground' que espera como parámetro el color y el tipo de navegación que se esta haciendo.
+
+
+Guía de referencia en el canal de [SwiftBeta](https://www.youtube.com/watch?v=cT3hVSe2L4E&list=PLeTOFRUxkMcoRLKLWXKXuMzohFgNEUxd5&index=5)
