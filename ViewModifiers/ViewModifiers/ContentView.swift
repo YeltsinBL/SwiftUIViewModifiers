@@ -23,6 +23,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Nueva Fuente", systemImage: "square.text.square")
                 }
+                MascarasController()
+                    .rotationEffect(Angle(degrees: -90))
+                    .tabItem {
+                        Label("Máscara", systemImage: "theatermasks")
+                    }
             }
             .padding(.top, 10)
         }

@@ -17,3 +17,7 @@ Ejemplos prácticos para mejorar la aplicación.
 -- Condensed: las letras están un poco pegadas.
 -- Standard: esta ya se usa, es la estándar por defecto.
 -- Expanded: las letras están más separadas
+
+## Crear Máscaras de las vistas en SwiftUI
+- Usando el modificador '.mask' se pueden agregar máscaras dentro de las vistas.
+- En este caso se agregó una palabra dentro de una imagen.
