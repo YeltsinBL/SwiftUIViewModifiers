@@ -15,6 +15,7 @@
 		3B53423129AE5BBF00AB30CB /* EsqueletosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53423029AE5BBF00AB30CB /* EsqueletosController.swift */; };
 		3B53423329AE698A00AB30CB /* MascarasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53423229AE698A00AB30CB /* MascarasController.swift */; };
 		3B53423529AE81F200AB30CB /* OverlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53423429AE81F200AB30CB /* OverlayController.swift */; };
+		3B53423729AEA30C00AB30CB /* ToolBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53423629AEA30C00AB30CB /* ToolBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3B53423029AE5BBF00AB30CB /* EsqueletosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsqueletosController.swift; sourceTree = "<group>"; };
 		3B53423229AE698A00AB30CB /* MascarasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascarasController.swift; sourceTree = "<group>"; };
 		3B53423429AE81F200AB30CB /* OverlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayController.swift; sourceTree = "<group>"; };
+		3B53423629AEA30C00AB30CB /* ToolBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				3B3D2D6629ADC43D00EEC107 /* ViewModifiersApp.swift */,
 				3B3D2D6829ADC43D00EEC107 /* ContentView.swift */,
+				3B53423629AEA30C00AB30CB /* ToolBarController.swift */,
 				3B53423029AE5BBF00AB30CB /* EsqueletosController.swift */,
 				3B53422E29AE588D00AB30CB /* NewStyleFontController.swift */,
 				3B53423229AE698A00AB30CB /* MascarasController.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B3D2D6929ADC43D00EEC107 /* ContentView.swift in Sources */,
+				3B53423729AEA30C00AB30CB /* ToolBarController.swift in Sources */,
 				3B53422F29AE588D00AB30CB /* NewStyleFontController.swift in Sources */,
 				3B53423529AE81F200AB30CB /* OverlayController.swift in Sources */,
 				3B53423329AE698A00AB30CB /* MascarasController.swift in Sources */,

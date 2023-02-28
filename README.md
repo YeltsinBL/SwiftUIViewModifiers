@@ -25,3 +25,20 @@ Ejemplos prácticos para mejorar la aplicación.
 ## Overlay: creación de una CardView
 - Sobreponer una vista encima de otra.
 - El ZStack y el overlay pueden sobreponer una vista encima de otra.
+
+## ToolBar 
+- Para customizar el NavigationBar en la parte superior e inferior.
+- Utilizamos dentro del 'Toolbar' el 'ToolbarItem' para customizarlo, por defecto la posición donde se coloca el elemento es en la parte superior derecha y se puede cambiar esa posición.
+- Las posiciones dependen del orden del prioridades:
+--  `ConfirmationAction`: su posición fija es la parte superior derecha y en negrita, importa el orden de la creación siempre que se use el 'DestructiveAction', dependerá quien va primero.
+-- `DestructiveAction`: su posición es en la parte superior derecha, desplazando al 'ConfirmationAction' a su lado izquierdo si se crea segundo; si se crea primero; entonces irá a lado izquierdo del 'ConfirmationAction'.
+-- `Principal`: siempre se pondrá en el centro de la parte superior.
+-- `CancellationAction`: se coloca en la parte superior izquierda pero si se usa el 'NavigationBarLeading' entonces se coloca al lado derecha de este.
+-- `PrimaryAction`: su posición es en la parte superior derecha, pero se coloca al lado izquierdo del 'ConfirmationAction' o 'DestructiveAction'.
+-- `SecondaryAction`: solo se visualiza si existe otro 'ToolbarItem' y se muestra dentro de un desplegable como si fuera más opciones.
+-- `NavigationBarTrailing`: su posición normal es la parte superior derecha pero por el orden de prioridades, se coloca a lado izquierdo del 'ConfirmationAction' o 'DestructiveAction'.
+-- `NavigationBarLeading`: se coloca en la parte superior izquierda.
+-- `Navigation`: se coloca en la parte superior izquierda pero si hubiera el ‘NavigationBarLeading' o 'CancellationAction', se coloca a lado derecho de ellos.
+-- `BottomBar`: su posición es en la parte inferior derecha.
+-- `Status`: su posición es en el centro de la parte inferior.
+- Se puede cambiar el color al 'ToolBar' para ello usamos el 'toolbarBackground' que espera como parámetro el color y el tipo de navegación que se esta haciendo.

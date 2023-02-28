@@ -32,6 +32,10 @@ struct ContentView: View {
                     .tabItem {
                         Label("Overlay", systemImage: "person.crop.rectangle")
                     }
+                ToolBarController()
+                    .tabItem {
+                        Label("Toolbar", systemImage: "list.bullet.rectangle.portrait")
+                    }
             }
             .padding(.top, 10)
         }
