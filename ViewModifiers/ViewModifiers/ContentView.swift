@@ -28,6 +28,10 @@ struct ContentView: View {
                     .tabItem {
                         Label("Máscara", systemImage: "theatermasks")
                     }
+                OverlayController()
+                    .tabItem {
+                        Label("Overlay", systemImage: "person.crop.rectangle")
+                    }
             }
             .padding(.top, 10)
         }

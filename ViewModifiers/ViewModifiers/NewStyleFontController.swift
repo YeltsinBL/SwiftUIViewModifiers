@@ -65,6 +65,7 @@ struct NewStyleFontController: View {
             }
             .padding()
             .border(.blue)
+            Spacer()
         }
     }
 }

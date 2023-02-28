@@ -21,3 +21,7 @@ Ejemplos prácticos para mejorar la aplicación.
 ## Crear Máscaras de las vistas en SwiftUI
 - Usando el modificador '.mask' se pueden agregar máscaras dentro de las vistas.
 - En este caso se agregó una palabra dentro de una imagen.
+
+## Overlay: creación de una CardView
+- Sobreponer una vista encima de otra.
+- El ZStack y el overlay pueden sobreponer una vista encima de otra.
